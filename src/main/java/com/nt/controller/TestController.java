@@ -9,6 +9,7 @@ public class TestController {
 	@GetMapping("/welcome")
 	public String msg() {
 		String msg="welcome to world";
+		System.out.println("where are you");
 		return msg;
 	}
 }
