@@ -10,6 +10,7 @@ public class TestController {
 	public String msg() {
 		String msg="welcome to world";
 		System.out.println("where are you");
+		System.out.println("where are you");
 		return msg;
 	}
 }
